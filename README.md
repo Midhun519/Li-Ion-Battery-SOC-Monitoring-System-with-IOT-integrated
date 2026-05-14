@@ -4,7 +4,7 @@
 ![GitHub issues](https://img.shields.io/github/issues/username/repo.svg)
 ![GitHub forks](https://img.shields.io/github/forks/username/repo.svg)
 
----
+
 
 ## 📌 Project Overview
 
@@ -26,7 +26,7 @@ The system continuously monitors a lithium-ion battery voltage, estimates its **
 - Smart energy management
 - Embedded IoT research projects
 
----
+
 
 ## 🚀 Features
 
@@ -39,7 +39,7 @@ The system continuously monitors a lithium-ion battery voltage, estimates its **
 ✅ Serial monitor debugging output  
 ✅ Lightweight embedded implementation  
 
----
+
 
 ## 🧰 Components Used
 
@@ -53,26 +53,31 @@ The system continuously monitors a lithium-ion battery voltage, estimates its **
 | Breadboard             | 1      | Prototyping                    |
 | Jumper Wires           | Multiple| Connections                    |
 
----
+
 
 ## 🖼️ Project Images
 
 Hardware Setup:  
-![Hardware Setup](images/hardware_setup.jpg)
+<img width="1600" height="1263" alt="image" src="https://github.com/user-attachments/assets/7d64056e-7c29-4c49-8ef6-3bdd4823c8b1" />
+
 
 OLED Display Output:  
-![OLED Output](images/oled_output.jpg)
+<img width="1550" height="1270" alt="image" src="https://github.com/user-attachments/assets/8e9c25af-d1d8-4e67-8a42-3e2bb57485b2" />
+
 
 Blynk IoT Dashboard:  
-![Blynk Dashboard](images/blynk_dashboard.jpg)
+<img width="1080" height="2412" alt="image" src="https://github.com/user-attachments/assets/f858bd58-7b44-41fd-8d72-a203568c5336" />
+
 
 Circuit Diagram:  
-![Circuit Diagram](images/circuit_diagram.png)
+<img width="871" height="681" alt="image" src="https://github.com/user-attachments/assets/d34113a2-5d3f-4d71-9877-d4a5f67e2d72" />
+
 
 System Architecture:  
-![System Architecture](images/system_architecture.png)
+<img width="828" height="751" alt="image" src="https://github.com/user-attachments/assets/8caf631f-a000-4dc6-b558-d493384639ca" />
 
----
+
+
 
 ## 🔋 Working Principle
 
@@ -88,7 +93,7 @@ System Architecture:
 - 🟢 Green → Battery healthy  
 - 🔴 Red → Low battery  
 
----
+
 
 ## ☁️ Blynk IoT Integration
 
@@ -98,7 +103,7 @@ System Architecture:
 | Battery Percentage | V1          | Integer|
 | Battery Status     | V2          | String |
 
----
+
 
 ## 📟 OLED Display Information
 
@@ -107,7 +112,7 @@ System Architecture:
 - Battery icon visualization  
 - Battery status  
 
----
+
 
 ## 🔌 Pin Connections
 
@@ -133,7 +138,7 @@ System Architecture:
 |----------------|-----------|
 | Divider Output | GPIO34    |
 
----
+
 
 ## 💻 Software & Libraries
 
@@ -146,7 +151,7 @@ System Architecture:
 
 **Arduino IDE Download:** [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
 
----
+
 
 ## 🧠 State of Charge (SoC) Calculation
 
@@ -163,7 +168,7 @@ System Architecture:
 | 3.20       | 5                |
 | 3.00       | 0                |
 
----
+
 
 ## 📱 Mobile Dashboard
 
@@ -173,6 +178,6 @@ The Blynk dashboard provides:
 - Battery status monitoring  
 - Cloud-based remote access  
 
----
+## Conclusion
 
-## 🖥️ Serial Monitor Output
+The IoT-Based Smart Battery Monitoring System using ESP32, OLED Display, and Blynk Cloud successfully demonstrates a compact and efficient solution for real-time battery monitoring and remote energy analytics. The system measures lithium-ion battery voltage, estimates the battery State of Charge (SoC), and displays the data locally on an OLED screen while simultaneously transmitting it to the Blynk IoT platform for wireless remote monitoring. By combining embedded systems, cloud connectivity, and IoT technology, the project provides an effective foundation for applications such as EV battery monitoring, solar energy systems, UPS management, and smart energy analytics. The project also highlights the potential for future enhancements including temperature sensing, battery health estimation, current monitoring, and advanced cloud-based battery management solutions.
